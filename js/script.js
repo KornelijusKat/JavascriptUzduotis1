@@ -1,6 +1,6 @@
 let vardas = 'joSEfas'
 let pavarde = "petrUlis"
-let asmensKodas = "31332256981";
+let asmensKodas = "31312256981";
 
 function nameChange(vardas, pavarde) {
     if(vardas.length >=3 && pavarde.length >=5)
@@ -44,7 +44,7 @@ function validIdChecker(asmensKodas){
     if(asmensKodas.length != 11 || isNaN(Number(asmensKodas)))
         return "Id is wrong format"
     else{
-        return "Id is in good format";
+        return "Id has correct lenght and no letters";
     }
 }
 console.log(nameChange(vardas,pavarde))
