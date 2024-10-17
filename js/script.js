@@ -1,6 +1,6 @@
 let vardas = 'joSEfas'
 let pavarde = "petrUlis"
-let asmensKodas = "33207156981";
+let asmensKodas = "31332256981";
 
 function nameChange(vardas, pavarde) {
     if(vardas.length >=3 && pavarde.length >=5)
@@ -41,7 +41,7 @@ function birthNation(gimData){
     }
 }
 function validIdChecker(asmensKodas){
-    if(asmensKodas.length != 11 && isNaN(Number(asmensKodas)) !=true)
+    if(asmensKodas.length != 11 || isNaN(Number(asmensKodas)))
         return "Id is wrong format"
     else{
         return "Id is in good format";
